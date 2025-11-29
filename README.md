@@ -1,8 +1,11 @@
 # Alpenmeister M v1 Controller
 also known as Meisterbox M
 
-![A leverless controller with a shell printed in black. The controller has a lid with a embossed logo. The shell has two clasps for closing. The controller itself has 14 black or white buttons with low profile keycaps.](https://github.com/AlpenmeisterCustoms/AlpenmeisterS-v2/blob/main/pictures/meisterboxSv2_closed_front.png "Overview of the Alpenmeister S v2 Controller")
-![A open leverless controller with a shell printed in black. The controller has a lid with a embossed logo. The shell has two clasps for closing. The controller itself has 14 black or white buttons with low profile keycaps.](https://github.com/AlpenmeisterCustoms/AlpenmeisterS-v2/blob/main/pictures/meisterboxSv2_open_front.png "Overview of the Alpenmeister S v2 Controller")
+![Picture of leverless controller.](https://github.com/AlpenmeisterCustoms/AlpenmeisterM-v1/blob/main/pictures/meisterboxM_front.png)
+![Picture of leverless controller.](https://github.com/AlpenmeisterCustoms/AlpenmeisterM-v1/blob/main/pictures/meisterboxM_tilt.png)
+![Picture of different controller faceplates.](https://github.com/AlpenmeisterCustoms/AlpenmeisterM-v1/blob/main/pictures/meisterboxM_faceplates.png)
+[![Youtube Video](https://github.com/user-attachments/assets/df346f7e-8029-429a-80a5-c51b9253bf50)](https://youtu.be/GesAZIjat_Y)
+
 
 Alpenmeister M v1 Controller is licensed under [Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/)  
 Free to build and modify for personal use. If you want to sell this design, please contact me.
@@ -13,7 +16,7 @@ It comes with an acrylic cover so you can put in your favorite artwork. It has a
 
 ## Case Files
 
-The repository contains five STLs in the `stls_to_print` folder which you'll need to print to make the Meisterbox S:
+The repository contains five STLs in the `stls_to_print` folder which you'll need to print to make the Meisterbox M:
 
 * 1x `.stl`: the bottom of the shell
 * 1x `.stl`: the mid layer of the shell
