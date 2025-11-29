@@ -90,7 +90,7 @@ You'll need some other hardware to assemble the whole controller:
 * 14x Choc hotswap sockets
 * 14x Duelpad 24mm and 30mm equivalent buttons
 * 4x 4mm M3 heat inserts 
-* 4x 10mm M3 flat top screws
+* 4x 8mm M3 flat top screws
 * 1x 2mm acrylic top plate
 * 1x USB-C cable (right-angled one with a slim connector is highly recommended)
 
