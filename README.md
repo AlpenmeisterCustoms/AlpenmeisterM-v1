@@ -18,14 +18,13 @@ It comes with an acrylic cover so you can put in your favorite artwork. It has a
 
 The repository contains five STLs in the `stls_to_print` folder which you'll need to print to make the Meisterbox M:
 
-* 1x `.stl`: the bottom of the shell
-* 1x `.stl`: the mid layer of the shell
-* 1x `.stl`: the top layer of the shell
-* 1x `.stl`: the cover
+* 1x `stls_to_print/Meisterbox M v1.3 bottom.stl`: the bottom of the shell
+* 1x `stls_to_print/Meisterbox M v1.3 mid.stl`: the mid layer of the shell
+* 1x `stls_to_print/Meisterbox M v1.3 top.stl`: the top layer of the shell
 
 You might need to orient the items on your print bed. You should be able to print this on a standard printer's bed of about 250mmx250mmx250mm printer. This build has been tested in PLA and PETG. Our recommendation is using PETG if you can, since that would make sure your controller won't warp when exposed to heat or become brittle because of sun exposure. If you use this controller to travel, those might be some conditions it might get exposed to.
 
-You will also find files for the acrylic cover `optional/AlpenmeisterSv2-acrylic.step` and a cutout file for the optional artwork `optional/AlpenmeisterSv2-acrylic.dxf`.
+You will also find files for the acrylic cover `optional/Meisterbox M v1.3 acrylic.step` and a cutout file for the optional artwork `optional/Meisterbox M v1.3 Acrylic.dxf`. Optional faceplate ideas are also found in `optional/`.  
 
 ## PCB Files
 
@@ -34,7 +33,7 @@ You can find the files necessary to order the PCB in `pcb/`. Ordering the PCBs w
 ### How to Order the PCBs
 1. Go to JLCPCB.com
 2. Click on "Order now"
-3. Click on "Add gerber file" and choose "MeisterboxS_gerber.zip"
+3. Click on "Add gerber file" and choose "MeisterboxMv1.3.zip"
 4. Use the default options (see reference at the end of these instructions), except those mentioned here:
     - PCB Color: choose your color, we would recommend black
     - Surface Finish: HASL, we would recommend LeadFree
@@ -49,7 +48,7 @@ You can find the files necessary to order the PCB in `pcb/`. Ordering the PCBs w
 
 7. Click "Next"
 8. Click "Next"
-9. Click "Add BOM" File and choose "AlpenmeisterSv2_bom.csv", then click "Add CPL File" and choose "AlpenmeisterSv2_CPL.csv". Then click "Process BOM & CPL"
+9. Click "Add BOM" File and choose "MeisterboxMv1.3_bom.csv", then click "Add CPL File" and choose "MeisterboxMv1.3_cpl.csv". Then click "Process BOM & CPL"
 10. You will then be presented with the components that are used on the board, they should be in stock and selected. Only then click "Next". Do not proceed if some are missing and you don't know what they do.
 11. You might then see a prompt saying "The system detects components that may be offset from the PCB, does it try to automatically align it?" (sic). Click "Cancel".
 13. You'll be in your cart. Select the PCB we just configured and then go through the "Secure Checkout"
@@ -89,24 +88,23 @@ Please bear in mind: Do this at your own risk. It is your own responsibility to 
 You'll need some other hardware to assemble the whole controller:
 * 14x Choc V2 switches
 * 14x Choc hotswap sockets
-* 9x 1U Tai-Hao THT Low Profile MX Blank Keycaps (you could print these if you'd like)
-* 5x 1.5U Tai-Hao THT Low Profile MX Blank Keycaps (you could print these if you'd like)
-* 4x 4mm M4 heat inserts 
-* 4x 6mm M4 flat top screws
+* 14x Dualpad 24mm and 30mm equivalent buttons
+* 4x 4mm M3 heat inserts 
+* 4x 10mm M3 flat top screws
 * 1x 2mm acrylic top plate
-* 1x USB-C cable (you will need a right-angled one with a slim connector to make it fit)
+* 1x USB-C cable (right-angled one with a slim connector is highly recommended)
 
 ## Assembly
 
 1. Flash firmware onto board. Follow [these instructions](https://gp2040-ce.info/installation/). Use [this firmware](https://github.com/AlpenmeisterCustoms/GP2040-CE/actions/runs/19237635402/artifacts/4521340374).
 2. Solder hotswap sockets to board.
 3. Insert heat inserts into case.
-4. Put 1.5mm filament through case and hinges + clasps, cut off excess filament. Put in the pins.
 5. Put PCB into bottom case part.
-6. Put acrylic plate on top of it.
-7. Screw it together.
-8. Insert switches and keycaps.
-9. Enjoy.
+6. Stack mid and top layer on top of it.
+7. Put acrylic plate on top of that.
+8. Screw it together.
+9. Insert switches and keycaps.
+10. Enjoy.
 
 ## Licensing
 
