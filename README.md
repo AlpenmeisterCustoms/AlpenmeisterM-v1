@@ -88,7 +88,7 @@ Please bear in mind: Do this at your own risk. It is your own responsibility to 
 You'll need some other hardware to assemble the whole controller:
 * 14x Choc V2 switches
 * 14x Choc hotswap sockets
-* 14x Dualpad 24mm and 30mm equivalent buttons
+* 14x Duelpad 24mm and 30mm equivalent buttons
 * 4x 4mm M3 heat inserts 
 * 4x 10mm M3 flat top screws
 * 1x 2mm acrylic top plate
