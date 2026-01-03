@@ -49,7 +49,7 @@ You can find the files necessary to order the PCB in `pcb/`. Ordering the PCBs w
 7. Click "Next"
 8. Click "Next"
 9. Click "Add BOM" File and choose "MeisterboxMv1.3_bom.csv", then click "Add CPL File" and choose "MeisterboxMv1.3_cpl.csv". Then click "Process BOM & CPL"
-10. You will then be presented with the components that are used on the board, they should be in stock and selected. Only then click "Next". Do not proceed if some are missing and you don't know what they do.
+10. You will then be presented with the components that are used on the board, they should be in stock and selected (hotswap sockets don't seem to be in stock anymore unfortunately; also if you don't want to pay the higher price for "standard assembly", don't check the LEDs to get populated). Only then click "Next". Do not proceed if some other components are missing and you don't know what they do.
 11. You might then see a prompt saying "The system detects components that may be offset from the PCB, does it try to automatically align it?" (sic). Click "Cancel".
 13. You'll be in your cart. Select the PCB we just configured and then go through the "Secure Checkout"
 
@@ -87,7 +87,7 @@ Please bear in mind: Do this at your own risk. It is your own responsibility to 
 
 You'll need some other hardware to assemble the whole controller:
 * 14x Choc V2 switches
-* 14x Choc hotswap sockets
+* 14x Choc hotswap sockets (since they seem to be permanently out of stock on JLC)
 * 14x Duelpad 24mm and 30mm equivalent buttons
 * 4x 4mm M3 heat inserts 
 * 4x 8mm M3 flat top screws
